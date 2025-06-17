@@ -7,3 +7,11 @@ document.querySelectorAll('.links a').forEach(link => {
         console.log(`Going to: ${link.href}`);
     });
 });
+
+const belt = document.querySelector('.conveyor-belt');
+belt.addEventListener('mouseenter', () => {
+    belt.style.animationPlayState = 'paused';
+});
+belt.addEventListener('mouseleave', () => {
+    belt.style.animationPlayState = 'running';
+});
