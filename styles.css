@@ -35,14 +35,14 @@ header {
 .banner h1 {
     text-align: center;
     flex: 1;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0;
 }
 
 /* Ensure both images are same size */
 .banner img {
-    width: 80px;  /* Adjust as needed */
-    height: auto;
+    width: auto;  /* Adjust as needed */
+    height: 100px;
     object-fit: contain;
 }
 
