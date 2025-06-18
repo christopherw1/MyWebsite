@@ -16,6 +16,7 @@ h1 {
     text-align: center;
     -webkit-text-stroke: 1px white; /* White border */
     font-weight: bold; /* Optional: bolder look */
+    font-size: 2rem;
 }
 
 header {
